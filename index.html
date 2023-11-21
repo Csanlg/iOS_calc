@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>iOS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <div class="item1 input1">
+                <form name="form">
+                    <input name="textview">
+                </form>
+            </div>
+            <div class="item1 clean"><button onclick="clean('')">AC</button></div>
+            <div class="item1 negative"><button onclick="negative('')">+/-</button></div>
+            <div class="item1 percent"><button onclick="percent('')">%</button></div>
+            <div class="item1 orange"><button onclick="numbers('/')">&divide;</button></div>
+            <div class="item1 num"><button onclick="numbers('7')">7</button></div>
+            <div class="item1 num"><button onclick="numbers('8')">8</button></div>
+            <div class="item1 num"><button onclick="numbers('9')">9</button></div>
+            <div class="item1 orange"><button onclick="numbers('*')">&times;</button></div>
+            <div class="item1 num"><button onclick="numbers('4')">4</button></div>
+            <div class="item1 num"><button onclick="numbers('5')">5</button></div>
+            <div class="item1 num"><button onclick="numbers('6')">6</button></div>
+            <div class="item1 orange"><button onclick="numbers('-')">-</button></div>
+            <div class="item1 num"><button onclick="numbers('1')">1</button></div>
+            <div class="item1 num"><button onclick="numbers('2')">2</button></div>
+            <div class="item1 num"><button onclick="numbers('3')">3</button></div>
+            <div class="item1 orange"><button onclick="numbers('+')">+</button></div>
+            <div class="item1 num zero"><button onclick="numbers('0')" class="zero-btn">0</button></div>
+            <div class="item1 num"><button onclick="numbers(',')">,</button></div>
+            <div class="item1 orange"><button onclick="equal('')">=</button></div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
